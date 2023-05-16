@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/app/src/**",
+                "${workspaceFolder}/app/dep/win/lib/gcc_lib/mswu",
+                "${workspaceFolder}/app/dep/win/include"
+            ],
+            "defines": [
+                "_WINDOWS",
+                "_UNICODE",
+                "__WXMSW__",
+                "NDEBUG",
+                "NOPCH"
+            ],
+            "compilerPath": "D:\\c\\mingw\\bin\\g++.exe",
+            "cStandard": "c11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "gcc-x86"
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/app/src/**",
+                "${workspaceFolder}/dep/linux/linux_lib/lib/wx/include/gtk3-unicode-static-3.1",
+                "${workspaceFolder}/dep/linux/include"
+            ],
+            "defines": [
+                "WX_PRECOMP",
+                "__WXGTK__",
+                "_FILE_OFFSET_BITS=64"
+            ],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c11",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
