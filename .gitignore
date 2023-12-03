@@ -36,7 +36,5 @@
 .vs
 .vscode
 machine_ocr/.vs
-machine_ocr/Debug
-machine_ocr/Release
-machine_ocr/machine_ocr/Debug
-machine_ocr/machine_ocr/Release
+machine_ocr/label_vision_inspection/obj
+machine_ocr/label_vision_inspection/bin
